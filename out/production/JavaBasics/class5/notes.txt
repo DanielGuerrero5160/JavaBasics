@@ -1,0 +1,33 @@
+Logical operators:
+! || &&
+Not is !-This will change a boolean variable to its opposite
+ System.out.println(!true); This is false
+ Not Operator (!)
+ Not is used to negate the boolean values if something is true, it will make it false
+ if something is false, it will make it true
+ Why should we use logical operators?
+ We can greatly simplify the logic using these operators
+ (prevents some need for nested if,
+ but less customizable as nested if)
+ What is the Syntax:
+ They only work with boolean data type
+ if(! condition)
+ if(condition1 ||condition2)
+ if(condition1&&condition2)
+
+ Whats is a switchCase statement:
+ They are just another way of achieving same result as if-else-if conditions
+ they are exactly the same but switch case statements are a lot faster,
+ more efficient, and easier to read
+
+ Syntax of SwitchCase:
+ String variable:
+ switch(var){
+ case 1:
+ sout"1"
+ break;
+ }
+ Switch case can not be used with boolean, double,
+ They will work with byte, short, int, char, String
+ cannot use relational operators with switch chase (.,=+-)
+
