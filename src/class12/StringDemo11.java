@@ -8,4 +8,6 @@ public class StringDemo11 {
 
         System.out.println(str.substring(0,26));//This gives the starting point first and ending point second of the substring
     }
+
+
 }
