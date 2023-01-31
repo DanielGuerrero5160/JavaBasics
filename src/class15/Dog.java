@@ -9,5 +9,8 @@ public class Dog {
         System.out.println(name);//because name is an instance variable, we can use it inside the class without initializing
         String food="meat";//local variable-Variable is defined in a method only
         System.out.println(food);
+
+        String str="computer science";
+        System.out.println(str.replace("c","*"));
     }
 }

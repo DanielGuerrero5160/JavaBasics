@@ -11,6 +11,6 @@ public class HWTask3 {
         HWTask3 task3=new HWTask3();
         String str="Hello World";
         System.out.println(task3.vowels(str));
-        
+
     }
 }
