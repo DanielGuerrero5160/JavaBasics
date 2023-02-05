@@ -28,6 +28,16 @@ class Savings extends BankAccount{
         System.out.println("Super Saving method from the super Saving class");
     }
 
+        public static void main(String[] args) {
+            SuperSavings sS=new SuperSavings();
+            sS.profit=100000;
+            sS.money=100000000;
+            sS.accountNumber=1234556777;
+            sS.deposit();
+            sS.takeProfit();
+            sS.superSavings();
+
+        }
 
     }
 

@@ -1,9 +1,9 @@
 package class19;
 
 public class Teacher {
-    String name;
-    int teacherId;
-    String subject;
+   public String name;
+    public int teacherId;
+    public String subject;
 
     Teacher(String name,int teacherId){
         this.name=name;
