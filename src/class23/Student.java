@@ -8,7 +8,6 @@ Define common behavior within parent class and override
 some of the methods in child classes
 Define some methods specific to child classes
 Write example of achieving run time polymorphism
-
      */
 
     void study(){
